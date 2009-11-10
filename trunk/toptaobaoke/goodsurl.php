@@ -29,10 +29,10 @@ $result = file_get_contents($url);
 $result = getXmlData($result);
 $url = $result['taobaokeItem']['click_url'];
 
-if (empty($aid)) {
-header('Location: http://www.7895123.com.cn/');
+if (empty($url)) {
+echo '没有获取到推广链接，可能商品下架或者已经退出推广。';
 exit;
 }
-header("Location: $url");
+echo '推广链接地址为'.$url;
 exit;
 ?>
