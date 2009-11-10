@@ -35,10 +35,13 @@ $paramArr = array(
     'method' => 'taobao.taobaoke.items.get', 
     'format' => 'xml', 
     'v' => '1.0', 
-    'timestamp' => date('Y-m-d H:i:s'), 
-	'fields' => 'iid,title,nick,pic_url,price,click_url,commission,commission_rate,commission_num',
+    'timestamp' => date('Y-m-d H:i:s'),
+    'fields' => 'iid,title,nick,pic_url,price,click_url,commission,commission_rate,commission_num',
     'nick' => $usernick,
     'cid' => $catid,
+    //信用筛选，关键词搜索筛选，地区筛选，情况wiki文档中的参数。http://wiki.open.taobao.com/index.php/Taobao.taobaoke.items.get
+    //'start_credit' => $start_credit,
+    //'end_credit' => $end_credit,
 	'page_no' => $page,
 	'page_size' => '20',
 	
@@ -161,8 +164,8 @@ require_once("SubPages.php");
 <div class="liebcttt">
 <div class="liebcttt01">商品推广信息</div>
 <div class="liebcttt02"><span>单价</span></div>
-<div class="liebcttt03"><span>返点比例</span></div>
-<div class="liebcttt04"><span>返点金额</span></div>
+<div class="liebcttt03"><span>佣金比例</span></div>
+<div class="liebcttt04"><span>佣金金额</span></div>
 <div class="liebcttt07"><span>成交总量</span></div>
 <div class="liebcttt05"><span>购买</span></div>
 </div>
