@@ -23,11 +23,11 @@ include("title.php");
     			<div class="header">
 			<div class="header-skin">
 										  <div class="header-top">
-   	<div class="logo" title="返回首页" ><h1><a href="http://www.7895123.com.cn" target="_blank">淘宝返现网</a></h1></div>
+   	<div class="logo" title="返回首页" ><h1><a href="http://www.7895123.com.cn" target="_blank">免淘网</a></h1></div>
 
   	<div class="quick-menu">
 	<ul class="quick-menu-list">
-		<li class="alipay" title="淘宝返现网"><a href="http://www.7895123.com.cn" target="_blank">淘宝返现网</a></li>
+		<li class="alipay" title="免淘网"><a href="http://www.7895123.com.cn" target="_blank">免淘网</a></li>
 		<li class="help" title="淘宝论坛"><a href="http://bbs.7895123.com.cn/" target="_blank">淘宝论坛</a></li>
 
 		<li class="help" title="购物社区"><a target="_blank" href="http://bbs.7895123.com.cn/"><font color="red">购物社区</font></a></li>
