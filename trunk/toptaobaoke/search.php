@@ -28,9 +28,9 @@ $result = getXmlData($result);
 $url = $result['taobaokeItem']['list_url_by_q'];
 
 if (empty($q)) {
-header('Location: http://www.7895123.com.cn/');
+echo '请输入关键词';
 exit;
 }
-header("Location: $url");
+echo '推广链接地址'.$url;
 exit;
 ?>
