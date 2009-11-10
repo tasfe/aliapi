@@ -2,7 +2,7 @@
 $tccc=$_GET['catid'];
 $tkeyword=$_GET['keyword'];
 if (empty($tccc)) {
-echo Header("Location:  index.php ");
+echo '分类首页';
 }
 ?>
 <?php
