@@ -19,6 +19,7 @@ if($sign!=$top_sign){
     exit;
 }
 //验证通过，解析top_parameters
-$top_parameters = base64_decode($top_parameters);
+//$top_parameters = base64_decode($top_parameters);//直接解析的
+$top_parameters = mb_convert_encoding(base64_decode($top_parameters),'UTF-8','GBK');//中文转码的
 print_r($top_parameters);
 ?>
