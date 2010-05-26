@@ -14,7 +14,7 @@ $paramArr = array(
     'timestamp' => date('Y-m-d H:i:s'),//时间戳，格式为yyyy-mm-dd hh:mm:ss，例如：2008-01-25 20:23:30。
     'fields' => 'title,nick,pic_url,post_fee',//需返回的字段列表。
     'nick' => 'tbtest',//卖家昵称,如果昵称为中文，要用UTF-8编码
-    'iid' => 'd8e936b33551d9d5999bda1a57f1f897',//商品id
+    'iid' => 'd8e936b33551d9d5999bda1a57f1f897'//商品id
     //'num_iid' => '12324527'//商品数字id
 );
 
